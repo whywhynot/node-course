@@ -17,7 +17,9 @@ const {
 // });
 
 // Todo.findOneAndRemove
-// Todo.findByIdAndRemove
+// Todo.findByIdAndRemove('').then((todo) => {
+// console.log(todo);
+// });
 
 // Todo.findOneAndRemove({_id: '57c4610dbb35fcbf6fda1154'}).then((todo) => {
 //
